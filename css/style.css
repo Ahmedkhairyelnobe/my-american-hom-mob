@@ -1,0 +1,184 @@
+/* 
+header h2
+font-size: 2.8rem
+-------------------------------
+
+*/
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/**************************/
+/* general */
+/**************************/
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #fff4e6;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+    /* padding: 0 12rem; */
+}
+
+.container {
+    border-top: 3px solid rgb(255, 192, 203);
+    background-color: #ebd8f9;
+    max-width: 120rem;
+    padding: 2rem 1.4rem;
+    /* margin: 0 auto; */
+}
+
+.grid {
+    display: grid;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid--2-colm {
+    grid-template-columns: 1fr 1.7fr;
+    align-items: flex-start;
+}
+
+.grid--2--colm {
+    grid-template-columns: 1.7fr 1fr;
+    align-items: flex-start;
+}
+
+.grid--4-row {
+    gap: 7px;
+}
+
+.grid--2-row {
+    gap: 7px;
+}
+
+/**************************/
+/* header */
+/**************************/
+
+
+.header {
+    background-color: white;
+    padding: 1rem 0.1rem;
+}
+
+.header h2 {
+    color: #2f2f2f;
+    text-align: center;
+    font-size: 2.1rem;
+    margin: 2rem 7rem;
+    line-height: 1.3;
+}
+
+.header p {
+    margin: 1.9rem 6rem 1.6rem 4rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/**************************/
+/* section-one */
+/**************************/
+
+.img-box img {
+    width: 500px;
+}
+
+.text-box p {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+.img-box p {
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    text-align: center;
+    font-style: italic;
+}
+
+
+/**************************/
+/* description */
+/**************************/
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 2.3rem;
+    margin-top: 5rem;
+    margin-bottom: 4.5rem;
+}
+
+.description p {
+    font-size: 18px;
+    line-height: 1.8rem;
+}
+
+h3 {
+    color: #2f2f2f;
+}
+
+.name {
+    color: rgb(186, 14, 253);
+    font-style: italic;
+}
+
+.btn:link,
+.btn:visited {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    padding: 4px 18px;
+    background-color: #47f3cc;
+    font-size: 43px;
+    font-weight: bolder;
+    line-height: 60px;
+    color: rgba(0, 0, 0, 0.747);
+    text-decoration: none;
+    border-radius: 3.75rem;
+}
+
+.footer {
+    text-align: center;
+    margin: 3.6rem 5rem;
+}
+
+.footer img {
+    width: 50px;
+    display: block;
+    margin: auto;
+}
+
+.footer a {
+    font-size: 0.7rem;
+}
+
+footer .one {
+    margin-top: 16px;
+    padding: 0 14rem;
+    font-size: 15px;
+}
+
+footer .two {
+    margin-top: 10px;
+    padding: 0 5rem;
+    font-size: 0.8rem;
+}

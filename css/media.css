@@ -1,0 +1,110 @@
+/* ************************
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+/* 
+
+@media (max-width: 84em) {
+    html {
+        font-size: 71%;
+    }
+
+    .header {
+        width: 70%;
+    }
+
+    .container {
+        max-width: 110rem;
+    }
+
+}
+  */
+
+
+/**************************/
+/* BELOW 544 (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+
+    main {
+        width: 100%;
+    }
+
+    .grid--2-colm,
+    .grid--2--colm {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .grid--4-row,
+    .grid--2-row {
+        gap: 0;
+    }
+
+    .header {
+        padding: 10px 0;
+    }
+
+    .header h2 {
+        font-size: 34px;
+        margin: 1.7rem 1.6rem;
+    }
+
+    .header p {
+        font-size: 1.2rem;
+        margin: 2rem;
+    }
+
+    .img-box {
+        text-align: center;
+    }
+
+    .img-box img {
+        width: 100%;
+    }
+
+    .text-box p {
+        padding: 0 52px 0 0;
+        font-size: 20.8px;
+        margin: 14px;
+    }
+
+    .description {
+        margin-top: 4rem;
+    }
+
+    .description p {
+        font-size: 20.8px;
+        padding: 0 89px 0 0;
+    }
+
+    .text-box {
+        margin: 2rem 0 0 0
+    }
+
+    h3 {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .btn:link,
+    .btn:visited {
+        font-size: 25px;
+        line-height: normal;
+    }
+
+    .footer {
+        margin: 3.6rem 0;
+    }
+
+    footer .one {
+        padding: 0 6rem;
+        font-size: 12px;
+    }
+
+
+    footer .two {
+        font-size: 12px;
+        padding: 0 3.7rem;
+    }
+}
