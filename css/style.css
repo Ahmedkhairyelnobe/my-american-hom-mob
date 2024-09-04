@@ -33,8 +33,8 @@ main {
 }
 
 .container {
-    border-top: 3px solid rgb(255, 192, 203);
-    background-color: #ebd8f9;
+    border-top: 3px solid rgb(12, 12, 12);
+    background-color: #080808;
     max-width: 120rem;
     padding: 2rem 1.4rem;
     /* margin: 0 auto; */
